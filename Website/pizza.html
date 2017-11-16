@@ -1,10 +1,212 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="sv">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="./js/jquery-3.2.1.min.js"></script>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/boostrap-social.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Courgette|Quattrocento+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/bootstrap.min.js"></script>
+    <title>Pizza Prego - Eat Well</title>
 </head>
 <body>
+<div class="container-fluid">
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed"
+                        data-toggle="collapse"
+                        data-target="#navbar-collapse-container"
+                        aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="index.html" class="navbar-brand">Eat Well <span class="glyphicon glyphicon-cutlery"></span></a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar-collapse-container">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">Hem</a></li>
+                    <li class="active">
+                        <a href="#" type="button" data-toggle="dropdown">Vårt utbud <span class="caret"></span><span class="sr-only">(current)</span></a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-header">Visa hela utbudet</li>
+                            <li><a href="services.html">Alla restauranger</a></li>
+                            <li class="divider"></li>
+                            <li class="dropdown-header">Gå till specifik restaurang</li>
+                            <li class="active"><a href="pizza.html">Pizza - Prego <span class="sr-only">(current)</span></a></li>
+                            <li><a href="asian.html">Asiatiskt - Big Buddha</a></li>
+                            <li><a href="bbq.html">BBQ - Holy Smoke</a></li>
+                            <li><a href="kebab.html">Kebab - Kebabkungen</a></li>
+                            <li><a href="veg.html">Vegetariskt - Vegeriet</a></li>
+                            <li><a href="fish.html">Fisk & Skaldjur - Sillen & Makrillen</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="gallery.html">Galleri</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="about.html">Om oss</a></li>
+                    <li><a href="contact.html">Kontakt</a></li>
+                    <li><a href="blog.html">Blogg</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <ol class="breadcrumb">
+        <li><a href="index.html"><span class="glyphicon glyphicon-home"></span></a></li>
+        <li><a href="services.html">Vårt utbud</a></li>
+        <li class="active">Pizza - Prego</li>
+    </ol>
+    <div class="row">
+        <div class="col-sm-8 col-sm-offset-2">
+            <img class="img-responsive img-rounded img-thumbnail" src="../Images/pizza.jpg" alt="Prego Pizza" title="Pregos goda pizza!">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-8 col-sm-offset-2">
+            <ul class="nav nav-tabs">
+                <li class="active"><a href="#about" data-toggle="tab">Om restaurangen</a></li>
+                <li><a href="#menu" data-toggle="tab">Restaurangens meny</a></li>
+                <li><a href="#reservation" data-toggle="tab">Boka bord!</a></li>
+            </ul>
 
+            <div class="tab-content">
+                <div class="tab-pane active" id="about">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <div class="well">
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                        <h3>Om Prego</h3>
+                                        <p>Lite text om restaurangen. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus accusantium cumque cupiditate dolores ex, exercitationem hic in, minus mollitia natus nemo, obcaecati officiis possimus quibusdam quo rerum sapiente sit ullam!</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane" id="menu">
+                    <div class="row">
+                    <div class="col-xs-12">
+                        <div class="well">
+                            <div class="row">
+                                <div class="col-xs-12">
+                                    <h3>Meny</h3>
+                                    <p>Lite text om restaurangen. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus accusantium cumque cupiditate dolores ex, exercitationem hic in, minus mollitia natus nemo, obcaecati officiis possimus quibusdam quo rerum sapiente sit ullam!</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                </div>
+                <div class="tab-pane" id="reservation">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <div class="well">
+                                <div class="row">
+                                    <div class="col-sm-4">
+                                        <h3>Boka bord</h3>
+                                    </div>
+                                    <div class="col-sm-8">
+                                        <div class="panel panel-info">
+                                            <div class="panel-heading">
+                                                <div class="panel-title">
+                                                    <h3 class="text-center">Make reservation!</h3>
+                                                </div>
+                                            </div>
+                                            <div class="panel-body">
+                                                <form action="#">
+                                                    <div class="form-group">
+                                                        <label for="name">Name</label>
+                                                        <input type="text" id="name" placeholder="ex. Marcus Finnberg" class="form-control" required>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label for="email">E-mail</label>
+                                                        <input type="email" id="email" placeholder="ex. marcus@ecutb.se" class="form-control" required>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label for="date">Date</label>
+                                                        <div class="input-group">
+                                                            <input type="date" id="date" class="form-control" required>
+                                                            <div class="input-group-addon"><span class="glyphicon glyphicon-th"></span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label for="msg">Comment</label>
+                                                        <textarea class="form-control" name="msg" id="msg" cols="30" rows="10" placeholder="ex. If you have an injury, illnes or otherwise any additional information we might have to know before giving you your treatment."></textarea>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <input type="button" value="Make Reservation!" class="btn btn-info center-block" data-toggle="modal" data-target="#confirmModal">
+                                                    </div>
+                                                    <div class="modal fade" id="confirmModal">
+                                                        <div class="modal-dialog">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span></button>
+                                                                    <h2 class="lead">Bekräfta bokning</h2>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    <p class="lead">Confirm your reservation!</p>
+                                                                    <p>If you cancel your appointment within 48 hours to your reserved time we will charge you full price.</p>
+                                                                </div>
+                                                                <div class="modal-footer">
+                                                                    <button type="button" class="btn btn-danger" data-dismiss="modal">Go back</button>
+                                                                    <input type="submit" class="btn btn-success" value="Make reservation">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="container-fluid">
+        <div class="well" style="margin:0;">
+            <div class="row">
+                <div class="col-sm-2 text-center hidden-xs">
+                    <h4>Contact us</h4>
+                    <p><span class="fa fa-phone"></span> 01-222-555-51</p>
+                    <p><span class="fa fa-envelope-open"></span> contact@eatwell.com</p>
+                    <p>Or see our social media</p>
+                </div>
+                <div class="col-sm-8 text-center">
+                    <p>&copy; Eat Well AB 2017</p>
+                </div>
+                <div class="col-sm-2 text-center">
+                    <h4>Social Media</h4>
+                    <a class="btn btn-social-icon btn-twitter">
+                        <span class="fa fa-twitter"></span>
+                    </a>
+                    <a class="btn btn-social-icon btn-facebook">
+                        <span class="fa fa-facebook"></span>
+                    </a>
+                    <a class="btn btn-social-icon btn-google">
+                        <span class="fa fa-google-plus"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
 </body>
 </html>
