@@ -1,6 +1,56 @@
 *{
     font-family: 'Quattrocento Sans', sans-serif;
 }
+body > .container-fluid{
+    background: url("../../Images/wall.jpg");
+}
 .navbar-brand{
     font-family: 'Courgette', cursive;
+}
+.carousel-control{
+    background-color: transparent;
+}
+.glyphicon-chevron-left, .glyphicon-chevron-right{
+    color: #baba59;
+    opacity: 1;
+}
+.carousel-control:hover {
+    background-color: transparent;
+
+}
+.glyphicon-chevron-left, .glyphicon-chevron-right:hover{
+    color: #baba59;
+    opacity: 1;
+}
+.carousel-control.right, .carousel-control.left{
+background-image: -webkit-linear-gradient(left,rgba(0,0,0,0) 0,rgba(0,0,0,0));
+background-image: -o-linear-gradient(left,rgba(0,0,0,0) 0,rgba(0,0,0,0));
+/* background-image: -webkit-gradient(linear,left top,right top,from(rgba(0,0,0,.0001)),to(rgba(0,0,0,.5))); */
+/* background-image: linear-gradient(to right,rgba(0,0,0,.0001) 0,rgba(0,0,0,.5) 100%)*/
+}
+footer, footer.container-fluid{
+    margin:0;
+    padding:0;
+}
+.carousel{
+    margin-bottom: 20px;
+}
+footer > .well{
+    background-image: -webkit-linear-gradient(top,#3c3c3c 0,#222 100%);
+    background-image: -o-linear-gradient(top,#3c3c3c 0,#222 100%);
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#3c3c3c),to(#222));
+    background-image: linear-gradient(to bottom,#3c3c3c 0,#222 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff3c3c3c', endColorstr='#ff222222', GradientType=0);
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+    background-repeat: repeat-x;
+    border-radius: 4px;;
+    color: white;
+}
+@media (max-width:768px){
+    body > .container-fluid{
+        background: whitesmoke;
+    }
+.panel{
+    margin-top: 20px;
+}
 }
