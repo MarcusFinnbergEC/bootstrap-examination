@@ -1,6 +1,9 @@
 *{
     font-family: 'Quattrocento Sans', sans-serif;
 }
+p{
+    font-size:18px;
+}
 body > .container-fluid{
     background: url("../../Images/wall.jpg");
 }
@@ -45,6 +48,12 @@ footer > .well{
     background-repeat: repeat-x;
     border-radius: 4px;;
     color: white;
+}
+.breadcrumb {
+    background: rgba(0,0,0,0.5);
+}
+.glyphicon-home{
+    color: #bada59;
 }
 @media (max-width:768px){
     body > .container-fluid{
