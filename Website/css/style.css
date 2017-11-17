@@ -52,9 +52,18 @@ footer > .well{
 .breadcrumb {
     background: rgba(0,0,0,0.5);
 }
-.glyphicon-home{
+.glyphicon-home, .breadcrumb a{
     color: #bada59;
+    text-decoration: none;
 }
+.glyphicon-home:hover, .breadcrumb a:hover{
+    color:orangered;
+    text-decoration:none;
+}
+.breadcrumb>.active {
+    color: #ffffff;
+}
+
 
 
 #navbar-collapse-container > ul:nth-child(1) > li.active.open > ul > li.active > a{
@@ -64,11 +73,17 @@ footer > .well{
 .dropdown-menu>.active>a, .dropdown-menu>.active>a:focus, .dropdown-menu>.active>a:hover{
     background-image:none;
 }
-
+.modal > div > button > span{
+    font-size: 40px;
+    color: white;
+}
+.gallerymargin img{
+    margin-bottom: 20px;
+}
 
 @media (max-width:768px){
     body > .container-fluid{
-        background: whitesmoke;
+        background: orangered;
     }
 .panel{
     margin-top: 20px;

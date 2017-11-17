@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="./js/jquery-3.2.1.min.js"></script>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/boostrap-social.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Courgette|Quattrocento+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/bootstrap.min.js"></script>
+    <title>Galleri - Eat Well</title>
+</head>
+<body>
+<div class="container-fluid">
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed"
+                        data-toggle="collapse"
+                        data-target="#navbar-collapse-container"
+                        aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="index.html" class="navbar-brand">Eat Well <span class="glyphicon glyphicon-cutlery"></span></a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar-collapse-container">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">Hem</a></li>
+                    <li>
+                        <a href="#" type="button" data-toggle="dropdown">Vårt utbud <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-header">Visa hela utbudet</li>
+                            <li><a href="services.html">Alla restauranger</a></li>
+                            <li class="divider"></li>
+                            <li class="dropdown-header">Gå till specifik restaurang</li>
+                            <li><a href="pizza.html">Pizza - Prego</a></li>
+                            <li><a href="asian.html">Asiatiskt - Big Buddha</a></li>
+                            <li><a href="bbq.html">BBQ - Holy Smoke</a></li>
+                            <li><a href="kebab.html">Kebab - Kebabkungen</a></li>
+                            <li><a href="veg.html">Vegetariskt - Vegeriet</a></li>
+                            <li><a href="fish.html">Fisk & Skaldjur - Sillen & Makrillen</a></li>
+                        </ul>
+                    </li>
+                    <li class="active"><a href="gallery.html">Galleri <span class="sr-only">(current)</span></a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="about.html">Om oss</a></li>
+                    <li><a href="contact.html">Kontakt</a></li>
+                    <li><a href="blog.html">Blogg</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <ol class="breadcrumb">
+        <li><a href="index.html"><span class="glyphicon glyphicon-home"></span></a></li>
+        <li class="active">Galleri</li>
+    </ol>
+    <div class="jumbotron">
+        <h1>Galleri</h1>
+        <em>Lite blandade bilder från våra olika restauranger</em>
+    </div>
+    <div class="row gallerymargin">
+        <div class="col-xs-8 col-xs-offset-2 col-sm-3 col-sm-offset-0">
+            <a data-toggle="modal" href="#bild1">
+                <img class="img-responsive img-thumbnail" src="../Images/gallery1.jpg" alt="">
+            </a>
+        </div>
+        <div class="col-xs-8 col-xs-offset-2 col-sm-3 col-sm-offset-0">
+            <a data-toggle="modal" href="#bild2">
+                <img class="img-responsive img-thumbnail" src="../Images/gallery2.jpg" alt="">
+            </a>
+        </div>
+        <div class="col-xs-8 col-xs-offset-2 col-sm-3 col-sm-offset-0">
+            <a data-toggle="modal" href="#bild3">
+                <img class="img-responsive img-thumbnail" src="../Images/gallery3.jpg" alt="">
+            </a>
+        </div>
+        <div class="col-xs-8 col-xs-offset-2 col-sm-3 col-sm-offset-0">
+            <a data-toggle="modal" href="#bild4">
+                <img class="img-responsive img-thumbnail" src="../Images/gallery4.jpg" alt="">
+            </a>
+        </div>
+    </div>
+        <div class="row gallerymargin">
+            <div class="col-xs-8 col-xs-offset-2 col-sm-3 col-sm-offset-0">
+                <a data-toggle="modal" href="#bild5">
+                    <img class="img-responsive img-thumbnail" src="../Images/gallery5.jpg" alt="">
+                </a>
+            </div>
+            <div class="col-xs-8 col-xs-offset-2 col-sm-3 col-sm-offset-0">
+                <a data-toggle="modal" href="#bild6">
+                    <img class="img-responsive img-thumbnail" src="../Images/gallery6.jpg" alt="">
+                </a>
+            </div>
+            <div class="col-xs-8 col-xs-offset-2 col-sm-3 col-sm-offset-0">
+                <a data-toggle="modal" href="#bild7">
+                    <img class="img-responsive img-thumbnail" src="../Images/gallery7.jpg" alt="">
+                </a>
+            </div>
+            <div class="col-xs-8 col-xs-offset-2 col-sm-3 col-sm-offset-0">
+                <a data-toggle="modal" href="#bild8">
+                    <img class="img-responsive img-thumbnail" src="../Images/gallery8.jpg" alt="">
+                </a>
+            </div>
+        </div>
+    <div class="row gallerymargin">
+        <div class="col-xs-8 col-xs-offset-2 col-sm-3 col-sm-offset-0">
+            <a data-toggle="modal" href="#bild9">
+                <img class="img-responsive img-thumbnail" src="../Images/gallery9.jpg" alt="">
+            </a>
+        </div>
+        <div class="col-xs-8 col-xs-offset-2 col-sm-3 col-sm-offset-0">
+            <a data-toggle="modal" href="#bild10">
+                <img class="img-responsive img-thumbnail" src="../Images/gallery10.jpg" alt="">
+            </a>
+        </div>
+        <div class="col-xs-8 col-xs-offset-2 col-sm-3 col-sm-offset-0">
+            <a data-toggle="modal" href="#bild11">
+                <img class="img-responsive img-thumbnail" src="../Images/gallery11.jpg" alt="">
+            </a>
+        </div>
+        <div class="col-xs-8 col-xs-offset-2 col-sm-3 col-sm-offset-0">
+            <a data-toggle="modal" href="#bild12">
+                <img class="img-responsive img-thumbnail" src="../Images/gallery12.jpg" alt="">
+            </a>
+        </div>
+    </div>
+
+    <!--Modal for picture-->
+    <div class="modal fade" id="bild1">
+        <div class="modal-dialog">
+            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span></button>
+            <img class="img-responsive" src="../Images/gallery1.jpg" alt="">
+        </div>
+    </div>
+    <div class="modal fade" id="bild2">
+        <div class="modal-dialog">
+            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span></button>
+            <img class="img-responsive" src="../Images/gallery2.jpg" alt="">
+        </div>
+    </div>
+    <div class="modal fade" id="bild3">
+        <div class="modal-dialog">
+            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span></button>
+            <img class="img-responsive" src="../Images/gallery3.jpg" alt="">
+        </div>
+    </div>
+    <div class="modal fade" id="bild4">
+        <div class="modal-dialog">
+            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span></button>
+            <img class="img-responsive" src="../Images/gallery4.jpg" alt="">
+        </div>
+    </div>
+    <div class="modal fade" id="bild5">
+        <div class="modal-dialog">
+            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span></button>
+            <img class="img-responsive" src="../Images/gallery5.jpg" alt="">
+        </div>
+    </div>
+    <div class="modal fade" id="bild6">
+        <div class="modal-dialog">
+            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span></button>
+            <img class="img-responsive" src="../Images/gallery6.jpg" alt="">
+        </div>
+    </div>
+    <div class="modal fade" id="bild7">
+        <div class="modal-dialog">
+            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span></button>
+            <img class="img-responsive" src="../Images/gallery7.jpg" alt="">
+        </div>
+    </div>
+    <div class="modal fade" id="bild8">
+        <div class="modal-dialog">
+            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span></button>
+            <img class="img-responsive" src="../Images/gallery8.jpg" alt="">
+        </div>
+    </div>
+    <div class="modal fade" id="bild9">
+        <div class="modal-dialog">
+            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span></button>
+            <img class="img-responsive" src="../Images/gallery9.jpg" alt="">
+        </div>
+    </div>
+    <div class="modal fade" id="bild10">
+        <div class="modal-dialog">
+            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span></button>
+            <img class="img-responsive" src="../Images/gallery10.jpg" alt="">
+        </div>
+    </div>
+    <div class="modal fade" id="bild11">
+        <div class="modal-dialog">
+            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span></button>
+            <img class="img-responsive" src="../Images/gallery11.jpg" alt="">
+        </div>
+    </div>
+    <div class="modal fade" id="bild12">
+        <div class="modal-dialog">
+            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span></button>
+            <img class="img-responsive" src="../Images/gallery12.jpg" alt="">
+        </div>
+    </div>
+    <!--End modal-->
+
+    <footer class="container-fluid">
+        <div class="well" style="margin:0;">
+            <div class="row">
+                <div class="col-sm-2 text-center hidden-xs">
+                    <h4>Kontakta oss</h4>
+                    <p><span class="fa fa-phone"></span> 042-22 22 00</p>
+                    <p><span class="fa fa-envelope-open"></span> contact@eatwell.se</p>
+                </div>
+                <div class="col-sm-8 text-center">
+                    <p>&copy; Eat Well AB 2017</p>
+                </div>
+                <div class="col-sm-2 text-center">
+                    <a class="btn btn-social-icon btn-twitter">
+                        <span class="fa fa-twitter"></span>
+                    </a>
+                    <a class="btn btn-social-icon btn-facebook">
+                        <span class="fa fa-facebook"></span>
+                    </a>
+                    <a class="btn btn-social-icon btn-google">
+                        <span class="fa fa-google-plus"></span>
+                    </a>
+                    <p>Följ oss på något av våra sociala medier</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+</body>
+</html>
