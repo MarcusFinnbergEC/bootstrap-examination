@@ -118,7 +118,7 @@
                                         <h3>Boka bord</h3>
                                     </div>
                                     <div class="col-sm-8">
-                                        <div class="panel panel-info">
+                                        <div class="panel panel-warning">
                                             <div class="panel-heading">
                                                 <div class="panel-title">
                                                     <h3 class="text-center">Make reservation!</h3>
@@ -127,15 +127,19 @@
                                             <div class="panel-body">
                                                 <form action="#">
                                                     <div class="form-group">
-                                                        <label for="name">Name</label>
+                                                        <label for="name">Namn</label>
                                                         <input type="text" id="name" placeholder="ex. Marcus Finnberg" class="form-control" required>
                                                     </div>
                                                     <div class="form-group">
-                                                        <label for="email">E-mail</label>
-                                                        <input type="email" id="email" placeholder="ex. marcus@ecutb.se" class="form-control" required>
+                                                            <label for="email">E-post</label>
+                                                            <input type="email" id="email" placeholder="ex. marcus@ecutb.se" class="form-control" required>
                                                     </div>
                                                     <div class="form-group">
-                                                        <label for="date">Date</label>
+                                                        <label for="phone">Telefon</label>
+                                                        <input type="number" id="phone" placeholder="endast siffror, inga andra tecken." class="form-control" required>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label for="date">Datum</label>
                                                         <div class="input-group">
                                                             <input type="date" id="date" class="form-control" required>
                                                             <div class="input-group-addon"><span class="glyphicon glyphicon-th"></span>
@@ -143,11 +147,25 @@
                                                         </div>
                                                     </div>
                                                     <div class="form-group">
-                                                        <label for="msg">Comment</label>
-                                                        <textarea class="form-control" name="msg" id="msg" cols="30" rows="10" placeholder="ex. If you have an injury, illnes or otherwise any additional information we might have to know before giving you your treatment."></textarea>
+                                                        <label for="time">Tid</label>
+                                                        <div class="input-group">
+                                                        <input type="time" id="time" class="form-control" required>
+                                                            <div class="input-group-addon"><span class="glyphicon glyphicon-time"></span></div>
+                                                        </div>
                                                     </div>
                                                     <div class="form-group">
-                                                        <input type="button" value="Make Reservation!" class="btn btn-info center-block" data-toggle="modal" data-target="#confirmModal">
+                                                        <label for="amountpers">Antal personer</label>
+                                                        <div class="input-group">
+                                                        <input type="number" id="amountpers" class="form-control" required>
+                                                            <div class="input-group-addon"><span class="glyphicon glyphicon-user"></span></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label for="msg">Meddelande</label>
+                                                        <textarea class="form-control" name="msg" id="msg" cols="30" rows="5" placeholder="Meddela här om ni har några särskilda önskemål, även bra om ni meddelar eventuella allergier."></textarea>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <input type="button" value="Boka mitt bord!" class="btn btn-warning center-block" data-toggle="modal" data-target="#confirmModal">
                                                     </div>
                                                     <div class="modal fade" id="confirmModal">
                                                         <div class="modal-dialog">
@@ -157,12 +175,12 @@
                                                                     <h2 class="lead">Bekräfta bokning</h2>
                                                                 </div>
                                                                 <div class="modal-body">
-                                                                    <p class="lead">Confirm your reservation!</p>
-                                                                    <p>If you cancel your appointment within 48 hours to your reserved time we will charge you full price.</p>
+                                                                    <p class="lead">Innan du bekräftar din bokning vänligen läs nedan!</p>
+                                                                    <p>Någon text här som säger något viktigt till kunden.....</p>
                                                                 </div>
                                                                 <div class="modal-footer">
-                                                                    <button type="button" class="btn btn-danger" data-dismiss="modal">Go back</button>
-                                                                    <input type="submit" class="btn btn-success" value="Make reservation">
+                                                                    <button type="button" class="btn btn-danger" data-dismiss="modal">Gå tillbaka</button>
+                                                                    <input type="submit" class="btn btn-success" value="Bekräfta bokning">
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -184,16 +202,14 @@
         <div class="well" style="margin:0;">
             <div class="row">
                 <div class="col-sm-2 text-center hidden-xs">
-                    <h4>Contact us</h4>
-                    <p><span class="fa fa-phone"></span> 01-222-555-51</p>
-                    <p><span class="fa fa-envelope-open"></span> contact@eatwell.com</p>
-                    <p>Or see our social media</p>
+                    <h4>Kontakta oss</h4>
+                    <p><span class="fa fa-phone"></span> 042-22 22 00</p>
+                    <p><span class="fa fa-envelope-open"></span> contact@eatwell.se</p>
                 </div>
                 <div class="col-sm-8 text-center">
                     <p>&copy; Eat Well AB 2017</p>
                 </div>
                 <div class="col-sm-2 text-center">
-                    <h4>Social Media</h4>
                     <a class="btn btn-social-icon btn-twitter">
                         <span class="fa fa-twitter"></span>
                     </a>
@@ -203,6 +219,7 @@
                     <a class="btn btn-social-icon btn-google">
                         <span class="fa fa-google-plus"></span>
                     </a>
+                    <p>Följ oss på något av våra sociala medier</p>
                 </div>
             </div>
         </div>
