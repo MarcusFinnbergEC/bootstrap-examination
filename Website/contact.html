@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="./js/jquery-3.2.1.min.js"></script>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/boostrap-social.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Courgette|Quattrocento+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/bootstrap.min.js"></script>
+    <title>Om oss - Eat Well</title>
+</head>
+<body>
+<div class="container-fluid">
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed"
+                        data-toggle="collapse"
+                        data-target="#navbar-collapse-container"
+                        aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="index.html" class="navbar-brand">Eat Well <span class="glyphicon glyphicon-cutlery"></span></a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar-collapse-container">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">Hem</a></li>
+                    <li>
+                        <a href="#" type="button" data-toggle="dropdown">Vårt utbud <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-header">Visa hela utbudet</li>
+                            <li><a href="services.html">Alla restauranger</a></li>
+                            <li class="divider"></li>
+                            <li class="dropdown-header">Gå till specifik restaurang</li>
+                            <li><a href="pizza.html">Pizza - Prego</a></li>
+                            <li><a href="asian.html">Asiatiskt - Big Buddha</a></li>
+                            <li><a href="bbq.html">BBQ - Holy Smoke</a></li>
+                            <li><a href="kebab.html">Kebab - Kebabkungen</a></li>
+                            <li><a href="veg.html">Vegetariskt - Vegeriet</a></li>
+                            <li><a href="fish.html">Fisk & Skaldjur - Sillen & Makrillen</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="gallery.html">Galleri</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="about.html">Om oss</a></li>
+                    <li class="active"><a href="contact.html">Kontakt <span class="sr-only">(current)</span></a></li>
+                    <li><a href="blog.html">Blogg</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <ol class="breadcrumb">
+        <li><a href="index.html"><span class="glyphicon glyphicon-home"></span></a></li>
+        <li class="active">Kontakt</li>
+    </ol>
+    <div class="row">
+        <div class="col-sm-4 col-sm-offset-2">
+            <div class="panel panel-warning">
+                <div class="panel-heading">
+                    <div class="panel-title text-center">
+                        <h3>Kontakta oss direkt</h3>
+                    </div>
+                </div>
+                <div class="panel-body">
+            <form action="#">
+                <div class="form-group">
+                    <label for="name">Namn</label>
+                    <input class="form-control" type="text" id="name" placeholder="Fullständigt namn." required>
+                </div>
+                <div class="form-group">
+                    <label for="email">E-post</label>
+                    <input class="form-control" type="email" id="email" placeholder="ex. anna@anna.se" required>
+                </div>
+                <div class="form-group">
+                    <label for="msg">Meddelande</label>
+                    <textarea class="form-control" name="msg" id="msg" cols="30" rows="14" minlength="30" maxlength="255" placeholder="Skriv ditt meddelande här, max 255 tecken."></textarea>
+                </div>
+                <div class="form-group">
+                    <input type="submit" class="btn btn-warning" value="Skicka">
+                </div>
+            </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-4">
+            <div class="panel panel-warning">
+                <div class="panel-heading">
+                    <div class="panel-title">
+                        <h3 class="text-center">Kontaktinformation</h3>
+                    </div>
+                </div>
+                <div class="panel-body">
+                    <img class="img-responsive img-rounded" src="../Images/about3.jpg" alt="">
+                    <h4 class="text-center">Adress</h4>
+                    <p class="text-center">Rodeo Drive 104, Hollywood</p>
+                    <p class="text-center">Los Angeles, CA</p>
+                    <hr>
+                    <h4 class="text-center">Contact info</h4>
+                    <p class="text-center"><span class="fa fa-phone"></span> 01-222-555-51</p>
+                    <p class="text-center"><span class="fa fa-envelope-open"></span> contact@zengardenhollywood.com</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="container-fluid">
+        <div class="well" style="margin:0;">
+            <div class="row">
+                <div class="col-sm-2 text-center hidden-xs">
+                    <h4>Kontakta oss</h4>
+                    <p><span class="fa fa-phone"></span> 042-22 22 00</p>
+                    <p><span class="fa fa-envelope-open"></span> contact@eatwell.se</p>
+                </div>
+                <div class="col-sm-8 text-center">
+                    <p>&copy; Eat Well AB 2017</p>
+                </div>
+                <div class="col-sm-2 text-center">
+                    <a class="btn btn-social-icon btn-twitter">
+                        <span class="fa fa-twitter"></span>
+                    </a>
+                    <a class="btn btn-social-icon btn-facebook">
+                        <span class="fa fa-facebook"></span>
+                    </a>
+                    <a class="btn btn-social-icon btn-google">
+                        <span class="fa fa-google-plus"></span>
+                    </a>
+                    <p>Följ oss på något av våra sociala medier</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+</body>
+</html>
