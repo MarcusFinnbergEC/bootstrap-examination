@@ -2,5 +2,12 @@ Loggbok grupp
 
 Datum: 16/11
 Deltagare: Hilda, Hamed, Marcus
+Några problem: Inga problem. Programmerat ihop på Marcus dator, därför endast han som commitat
+Daglig sammanfattning: Vi hjälptes åt att bestämma tema, gjorde wireframes för alla sidor, skapade vår git,
+Laddade ner alla bilder vi behöver till projktet. Vi har gjort footer och navigation till alla sidor samt skalet 
+till startsidan, vårt utbud och individuella sidorna.
+
+Datum: 17/11
+Deltagare: Hilda, Hamed, Marcus
 Några problem:
-Daglig sammanfattning: Vi hjälptes åt att bestämma tema, gjorde wireframes för alla sidor 
+Daglig sammanfatning:
