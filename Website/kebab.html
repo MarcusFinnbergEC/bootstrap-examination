@@ -84,12 +84,21 @@
                         <div class="col-xs-12">
                             <div class="well">
                                 <div class="row">
-                                    <div class="col-xs-12">
-                                        <h3>Om Prego</h3>
-                                        <p>Lite text om restaurangen. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus accusantium cumque cupiditate dolores ex, exercitationem hic in, minus mollitia natus nemo, obcaecati officiis possimus quibusdam quo rerum sapiente sit ullam!</p>
+                                    <div class="col-xs-12 col-sm-6">
+                                        <h3 class="text-uppercase">Om kebabkungen</h3>
+                                        <p>Kebabkungen slog upp portarna 2012 och har sedan dess utvecklat sitt speciella varumärke och smakrika mat. Deras tre ledord är: <span><em>Kärlek, Omsorg & Kvalité</em></span>. Restaurangen vi samarbetar med finns i Mariastaden men de har även restauranger på söder och på knutpunkten i Helsingborg.</p>
+                                        <h3 class="text-uppercase">Info</h3>
+                                        <p>Adress: Engelska Gången 4, 254 51 Helsingborg</p>
+                                        <p>Hemsida: <a href="http://kebab-kungen.com/w/m/">Kebabkungen</a></p>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-6">
+                                        <h3 class="text-uppercase">Öppettider</h3>
+                                        <p>Mån-Tors: 11:00-21:00</p>
+                                        <p>Fred:  11:00-22:00</p>
+                                        <p>Lör: 12:00-22:00</p>
+                                        <p>Sön: 12:00-21:00</p>
                                     </div>
                                 </div>
-
                             </div>
                         </div>
                     </div>
@@ -100,8 +109,24 @@
                             <div class="well">
                                 <div class="row">
                                     <div class="col-xs-12">
-                                        <h3>Meny</h3>
-                                        <p>Lite text om restaurangen. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus accusantium cumque cupiditate dolores ex, exercitationem hic in, minus mollitia natus nemo, obcaecati officiis possimus quibusdam quo rerum sapiente sit ullam!</p>
+                                        <h3 class="text-uppercase">Utdrag ur menyn</h3>
+                                        <dl>
+                                            <dt>PIZZA</dt>
+                                            <dt>Kebab Pizza 83:-</dt>
+                                            <dd><em>Lök, kebabkött, feferoni, mildsås</em></dd>
+                                            <dt>Helsingborg Special 83:-</dt>
+                                            <dd><em>Skinka,lLök, färska tomater, kebabkött, vitlöksås</em></dd>
+                                            <dt>Kanon Pizza</dt>
+                                            <dd><em>Köttfärssås, kebabkött, ananas, bearnaisesås</em></dd>
+                                            <dt>KEBAB</dt>
+                                            <dt>Kebab I Bröd 55:-</dt>
+                                            <dd><em>Kebabkött, grönsaker & valfri sås</em></dd>
+                                            <dt>Kebabtallrik 75:-</dt>
+                                            <dd><em>Kebabkött, pommes, grönsaker & valfri sås</em></dd>
+                                            <dt>FALAFEL</dt>
+                                            <dt>Falafelrulle 65:-</dt>
+                                            <dd><em>Falafel, grönsaker & valfri sås</em></dd>
+                                        </dl>
                                     </div>
                                 </div>
 
@@ -115,28 +140,29 @@
                             <div class="well">
                                 <div class="row">
                                     <div class="col-sm-4">
-                                        <h3>Boka bord</h3>
+                                        <h3 class="text-uppercase">Boka bord</h3>
+                                        <em>Bordsbokning måste ske senast 24 timmar innan önskad tid annars kan vi inte garantera att er bokning bekräftas av restaurangen</em>
                                     </div>
                                     <div class="col-sm-8">
                                         <div class="panel panel-warning">
                                             <div class="panel-heading">
                                                 <div class="panel-title">
-                                                    <h3 class="text-center">Make reservation!</h3>
+                                                    <h3 class="text-center text-uppercase">Bokningsformulär</h3>
                                                 </div>
                                             </div>
                                             <div class="panel-body">
                                                 <form action="#">
                                                     <div class="form-group">
                                                         <label for="name">Namn</label>
-                                                        <input type="text" id="name" placeholder="ex. Marcus Finnberg" class="form-control" required>
+                                                        <input type="text" id="name" placeholder="För- & Efternamn" class="form-control" required>
                                                     </div>
                                                     <div class="form-group">
                                                         <label for="email">E-post</label>
-                                                        <input type="email" id="email" placeholder="ex. marcus@ecutb.se" class="form-control" required>
+                                                        <input type="email" id="email" placeholder="ex. fornamn.efternamn@hotmail.com" class="form-control" required>
                                                     </div>
                                                     <div class="form-group">
                                                         <label for="phone">Telefon</label>
-                                                        <input type="number" id="phone" placeholder="endast siffror, inga andra tecken." class="form-control" required>
+                                                        <input type="number" id="phone" placeholder="Endast siffror, inga andra tecken..." class="form-control" required>
                                                     </div>
                                                     <div class="form-group">
                                                         <label for="date">Datum</label>
@@ -156,7 +182,7 @@
                                                     <div class="form-group">
                                                         <label for="amountpers">Antal personer</label>
                                                         <div class="input-group">
-                                                            <input type="number" id="amountpers" class="form-control" required>
+                                                            <input type="number" id="amountpers" class="form-control" placeholder="Endast siffror, inga andra tecken..." required>
                                                             <div class="input-group-addon"><span class="glyphicon glyphicon-user"></span></div>
                                                         </div>
                                                     </div>
@@ -172,11 +198,12 @@
                                                             <div class="modal-content">
                                                                 <div class="modal-header">
                                                                     <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span></button>
-                                                                    <h2 class="lead">Bekräfta bokning</h2>
+                                                                    <h2 class="lead text-uppercase">Bekräfta bokning</h2>
                                                                 </div>
                                                                 <div class="modal-body">
                                                                     <p class="lead">Innan du bekräftar din bokning vänligen läs nedan!</p>
-                                                                    <p>Någon text här som säger något viktigt till kunden.....</p>
+                                                                    <p>När bokning är gjord kommer ni att få en bekräftelse på er bokning till e-postadressen ni angivit i formuläret.</p>
+                                                                    <em>Om ni inte har mottagit en bekräftelse inom 20 minuter efter att ni lagt bokningen vänligen kontakta oss.</em>
                                                                 </div>
                                                                 <div class="modal-footer">
                                                                     <button type="button" class="btn btn-danger" data-dismiss="modal">Gå tillbaka</button>

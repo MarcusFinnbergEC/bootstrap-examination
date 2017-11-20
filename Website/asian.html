@@ -74,7 +74,7 @@
         <div class="col-sm-8 col-sm-offset-2">
             <ul class="nav nav-tabs">
                 <li class="active"><a href="#about" data-toggle="tab">Om restaurangen</a></li>
-                <li><a href="#menu" data-toggle="tab">Restaurangens meny</a></li>
+                <li><a href="#menu" data-toggle="tab">Meny</a></li>
                 <li><a href="#reservation" data-toggle="tab">Boka bord!</a></li>
             </ul>
 
@@ -84,14 +84,16 @@
                         <div class="col-xs-12">
                             <div class="well">
                                 <div class="row">
-                                    <div class="col-xs-12">
+                                    <div class="col-xs-12 col-sm-6">
                                         <h3>Om Big Buddha</h3>
                                         <p>Asiatisk mat i sundets pärla Helsingborg. Både personal och ägare har rötter ifrån Asien och kan den asiatiska matkulturen.</p>
                                         <br>
-                                        <p class="lead">INFO</p>
+                                        <h3>INFO</h3>
                                         <p>Adress: Ålgränden 1, 252 20 Helsingborg</p>
-                                        <br>
-                                        <p class="lead">ÖPPETTIDER</p>
+                                        <p>Hemsida: <a href="http://bigbuddha.se/">Big Buddha</a></p>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-6">
+                                        <h3>ÖPPETTIDER</h3>
                                         <p>Måndag 11.30 - 15.00 <br>
                                             Tisdag-Torsdag 11.30 - 22.00<br>
                                             Fredag 11.30 - 23.00<br>
@@ -110,7 +112,7 @@
                             <div class="well">
                                 <div class="row">
                                     <div class="col-xs-12">
-                                        <h3>Utdrag ur meny</h3>
+                                        <h3 class="text-uppercase">Utdrag ur meny</h3>
                                         <dl>
                                             <dt>FÖRRÄTTER</dt>
                                             <dt>Pohpiah	65:-</dt>
@@ -145,29 +147,29 @@
                             <div class="well">
                                 <div class="row">
                                     <div class="col-sm-4">
-                                        <h3>Boka bord</h3>
+                                        <h3 class="text-uppercase">Boka bord</h3>
                                         <em>Bordsbokning måste ske senast 24 timmar innan önskad tid annars kan vi inte garantera att er bokning bekräftas av restaurangen</em>
                                     </div>
                                     <div class="col-sm-8">
                                         <div class="panel panel-warning">
                                             <div class="panel-heading">
                                                 <div class="panel-title">
-                                                    <h3 class="text-center">Make reservation!</h3>
+                                                    <h3 class="text-center text-uppercase">Bokningsformulär</h3>
                                                 </div>
                                             </div>
                                             <div class="panel-body">
                                                 <form action="#">
                                                     <div class="form-group">
                                                         <label for="name">Namn</label>
-                                                        <input type="text" id="name" placeholder="ex. Marcus Finnberg" class="form-control" required>
+                                                        <input type="text" id="name" placeholder="För- & Efternamn" class="form-control" required>
                                                     </div>
                                                     <div class="form-group">
                                                         <label for="email">E-post</label>
-                                                        <input type="email" id="email" placeholder="ex. marcus@ecutb.se" class="form-control" required>
+                                                        <input type="email" id="email" placeholder="ex. fornamn.efternamn@hotmail.com" class="form-control" required>
                                                     </div>
                                                     <div class="form-group">
                                                         <label for="phone">Telefon</label>
-                                                        <input type="number" id="phone" placeholder="endast siffror, inga andra tecken." class="form-control" required>
+                                                        <input type="number" id="phone" placeholder="Endast siffror, inga andra tecken..." class="form-control" required>
                                                     </div>
                                                     <div class="form-group">
                                                         <label for="date">Datum</label>
@@ -187,13 +189,13 @@
                                                     <div class="form-group">
                                                         <label for="amountpers">Antal personer</label>
                                                         <div class="input-group">
-                                                            <input type="number" id="amountpers" class="form-control" required>
+                                                            <input type="number" id="amountpers" class="form-control" placeholder="Endast siffror, inga andra tecken..." required>
                                                             <div class="input-group-addon"><span class="glyphicon glyphicon-user"></span></div>
                                                         </div>
                                                     </div>
                                                     <div class="form-group">
                                                         <label for="msg">Meddelande</label>
-                                                        <textarea class="form-control" name="msg" id="msg" cols="30" rows="5" placeholder="Meddela här om ni har några särskilda önskemål, även bra om ni meddelar eventuella allergier."></textarea>
+                                                        <textarea class="form-control" name="msg" id="msg" cols="30" rows="5" placeholder="Meddela om ni har några särskilda önskemål, även bra om ni meddelar eventuella allergier."></textarea>
                                                     </div>
                                                     <div class="form-group">
                                                         <input type="button" value="Boka mitt bord!" class="btn btn-warning center-block" data-toggle="modal" data-target="#confirmModal">
@@ -203,11 +205,12 @@
                                                             <div class="modal-content">
                                                                 <div class="modal-header">
                                                                     <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span></button>
-                                                                    <h2 class="lead">Bekräfta bokning</h2>
+                                                                    <h2 class="lead text-uppercase">Bekräfta bokning</h2>
                                                                 </div>
                                                                 <div class="modal-body">
                                                                     <p class="lead">Innan du bekräftar din bokning vänligen läs nedan!</p>
-                                                                    <p>Någon text här som säger något viktigt till kunden.....</p>
+                                                                    <p>När bokning är gjord kommer ni att få en bekräftelse på er bokning till e-postadressen ni angivit i formuläret.</p>
+                                                                    <em>Om ni inte har mottagit en bekräftelse inom 20 minuter efter att ni lagt bokningen vänligen kontakta oss.</em>
                                                                 </div>
                                                                 <div class="modal-footer">
                                                                     <button type="button" class="btn btn-danger" data-dismiss="modal">Gå tillbaka</button>
