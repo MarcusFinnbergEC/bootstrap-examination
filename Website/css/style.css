@@ -1,46 +1,4 @@
-<<<<<<< HEAD
-
 /*!----GRUNDLÄGGANDE STYLING----!*/
-
-=======
->>>>>>> 49cfa1b55199499032ae28faf573b2efd254b338
-body > div > nav  a{
-
-
-
-}
-
-body > div > nav a :hover{
-    transform: scale(1.2, 1.2); /** default is 1, scale it to 1.5 */
-
-    transition: 0.3s ease;
-}
-
-
-
-
-
-.resizing{
-    width: 200px;
-    position: relative;
-    opacity: 0.5;
-    transition: 0.3s ease;
-    cursor: pointer;
-}
-
-.resizing:hover{
-    transform: scale(1.2, 1.2); /** default is 1, scale it to 1.5 */
-    opacity: 1;
-}
-
-
-
-
-
-<<<<<<< HEAD
-
-=======
->>>>>>> 49cfa1b55199499032ae28faf573b2efd254b338
 *{
     font-family: 'Quattrocento Sans', sans-serif;
 }
@@ -48,9 +6,28 @@ p{
     font-size:18px;
 }
 body > .container-fluid{
-    background:  url("../../Images/wall.jpg")   ;
+    background:  url("../../Images/wall.jpg");
 }
 /*!----SLUT GRUNDLÄGGANDE STYLING----!*/
+
+/*!----RESIZING STYLING NAVBAR BRAND OCH GALLERY-IMAGES----!*/
+body > div > nav a :hover{
+    transform: scale(1.2, 1.2); /** default is 1, scale it to 1.5 */
+
+    transition: 0.3s ease;
+}
+.resizing{
+    width: 200px;
+    position: relative;
+    opacity: 0.5;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+.resizing:hover{
+    transform: scale(1.2, 1.2); /** default is 1, scale it to 1.5 */
+    opacity: 1;
+}
+/*!----SLUT PÅ RESIZE STYLING----!*/
 
 /*!----STYLING INNANFÖR VÅR NAVBAR----!*/
 .navbar-brand{
@@ -73,10 +50,7 @@ body > .container-fluid{
     color: #baba59;
     opacity: 1;
 }
-.carousel-control:hover {
-    background-color: transparent;
 
-}
 .glyphicon-chevron-left, .glyphicon-chevron-right:hover{
     color: #baba59;
     opacity: 1;
@@ -95,10 +69,10 @@ background-image: -o-linear-gradient(left,rgba(0,0,0,0) 0,rgba(0,0,0,0));
 /*!----STYLING FÖR FOOTER----!*/
 footer, footer.container-fluid{
     /*FÅ BORT MARGIN OCH PADDING I CONTAINER-FLUID*/
-    margin:0;
-    padding:0;
+   /* margin:0;
+    padding:0;*/
 }
-footer > .well{
+footer.well{
     /*ÄNDRAR BAKGRUND SÅ ATT VI FÅR SAMMA SOM I NAVBAR-INVERSE I VÅR WELL I FOOTER*/
     background-image: -webkit-linear-gradient(top,#3c3c3c 0,#222 100%);
     background-image: -o-linear-gradient(top,#3c3c3c 0,#222 100%);
@@ -107,8 +81,10 @@ footer > .well{
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff3c3c3c', endColorstr='#ff222222', GradientType=0);
     filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
     background-repeat: repeat-x;
+    border: transparent;
     border-radius: 4px;
     color: white;
+    margin:0;
 }
 /*!----SLUT STYLING FÖR FOOTER----!*/
 
@@ -143,7 +119,7 @@ footer > .well{
 /*!----SLUT STYLING FÖR IMG I GALLERY.HTML----!*/
 
 
-/*!----HÄR ÄR ETT FÖRSLAG TILL STYLING PÅ PANEL-WARNING PANEL-HEADING OCH PÅ JUMBOTRON----!*/
+/*!----STYLING PÅ PANEL-WARNING PANEL-HEADING OCH PÅ JUMBOTRON----!*/
 
 .panel-warning .panel-heading, .jumbotron{
     background-image: -webkit-linear-gradient(top,orangered 0,#faf2cc 100%);
@@ -153,9 +129,7 @@ footer > .well{
     color: #fff;
 }
 
-/*!----HÄR ÄR ETT FÖRSLAG TILL STYLING PÅ VÅR NAV-TABS OCH WELL FÖR DE SPECIFIKA PRODUKTSIDORNA----!*/
-
-
+/*!----STYLING PÅ VÅR NAV-TABS OCH WELL FÖR DE SPECIFIKA PRODUKTSIDORNA----!*/
 .nav-tabs{
     border: none;
 }
@@ -186,22 +160,12 @@ footer > .well{
     color: orangered;
  }
 
-.modal-dialog{ /*!----DENNA SKA IN I STYLING FÖR MODAL OM DEN ÄR GODKÄND AV GRUPPEN!!!----!*/
+.modal-dialog{ /*!----Ändrar textfärg till svart i confirmModal----!*/
    color:black;
 }
-
+/*!----SLUT PÅ STYLING NAV-TABS OCH WELL (SPEC.PROD)----!*/
 
 /*!----Media-query för mobiler att de ska ha en annan bakgrund, istället för en bild så blir det endast en färg----!*/
-
-
-
-
-
-
-
-
-
-
 @media (max-width:768px){
     body > .container-fluid{
         background: url("../../Images/wall.jpg");
