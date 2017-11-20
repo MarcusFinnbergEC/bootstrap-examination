@@ -1,4 +1,40 @@
+
 /*!----GRUNDLÄGGANDE STYLING----!*/
+
+body > div > nav  a{
+
+
+
+}
+
+body > div > nav a :hover{
+    transform: scale(1.2, 1.2); /** default is 1, scale it to 1.5 */
+
+    transition: 0.3s ease;
+}
+
+
+
+
+
+.resizing{
+    width: 200px;
+    position: relative;
+    opacity: 0.5;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.resizing:hover{
+    transform: scale(1.2, 1.2); /** default is 1, scale it to 1.5 */
+    opacity: 1;
+}
+
+
+
+
+
+
 *{
     font-family: 'Quattrocento Sans', sans-serif;
 }
@@ -6,7 +42,7 @@ p{
     font-size:18px;
 }
 body > .container-fluid{
-    background: url("../../Images/wall.jpg");
+    background:  url("../../Images/wall.jpg")   ;
 }
 /*!----SLUT GRUNDLÄGGANDE STYLING----!*/
 
@@ -148,10 +184,13 @@ footer > .well{
    color:black;
 }
 
+
 /*!----Media-query för mobiler att de ska ha en annan bakgrund, istället för en bild så blir det endast en färg----!*/
+
+
 @media (max-width:768px){
     body > .container-fluid{
-        background: orangered;
+        background: url("../../Images/wall.jpg");
     }
 .panel{
     margin-top: 20px;
