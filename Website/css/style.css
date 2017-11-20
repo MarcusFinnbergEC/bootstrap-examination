@@ -1,6 +1,9 @@
+<<<<<<< HEAD
 
 /*!----GRUNDLÄGGANDE STYLING----!*/
 
+=======
+>>>>>>> 49cfa1b55199499032ae28faf573b2efd254b338
 body > div > nav  a{
 
 
@@ -34,7 +37,10 @@ body > div > nav a :hover{
 
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 49cfa1b55199499032ae28faf573b2efd254b338
 *{
     font-family: 'Quattrocento Sans', sans-serif;
 }
@@ -186,6 +192,14 @@ footer > .well{
 
 
 /*!----Media-query för mobiler att de ska ha en annan bakgrund, istället för en bild så blir det endast en färg----!*/
+
+
+
+
+
+
+
+
 
 
 @media (max-width:768px){
