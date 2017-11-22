@@ -167,9 +167,6 @@ footer.well{
 
 /*!----Media-query för mobiler att de ska ha en annan bakgrund, istället för en bild så blir det endast en färg----!*/
 @media (max-width:768px){
-    body > .container-fluid{
-        background: url("../../Images/wall.jpg");
-    }
 .panel{
     margin-top: 20px;
 }
