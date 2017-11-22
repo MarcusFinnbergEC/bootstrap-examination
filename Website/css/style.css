@@ -163,9 +163,9 @@ footer.well{
 }
 /*!----SLUT PÅ STYLING NAV-TABS OCH WELL (SPEC.PROD)----!*/
 
-/*!----Media-query för mobiler att de ska ha en annan bakgrund, istället för en bild så blir det endast en färg----!*/
+/*!----Media-query för mobiler----!*/
 @media (max-width:768px){
-.panel{
-    margin-top: 20px;
-}
+    .panel{
+        margin-top: 20px;
+    }
 }
