@@ -167,6 +167,10 @@ footer.well{
 
 /*!----Media-query för mobiler att de ska ha en annan bakgrund, istället för en bild så blir det endast en färg----!*/
 @media (max-width:768px){
+<<<<<<< HEAD
+=======
+
+>>>>>>> 37c32b51507c3bb3c80c6439aff86081c71fc79b
 .panel{
     margin-top: 20px;
 }
